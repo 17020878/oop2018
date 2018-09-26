@@ -21,7 +21,7 @@ public class Task1 {
         System.out.println("UCLN cua 2 so 10 va 8 la : ");
         System.out.println(gcd(2,10));
         System.out.println(" Fibonacci cua so 5 la : ");
-        System.out.println(fibonacci(5));
+        System.out.println(fibonacci(7));
     }
 
 }

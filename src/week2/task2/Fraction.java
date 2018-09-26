@@ -58,8 +58,8 @@ public class Fraction {
     public boolean equals(Fraction obj) {
         double PS1 = this.numerator / this.denominator;
         double PS2 = obj.numerator / obj.denominator;
-
-        if(PS1 > PS2 ) return true;
+        if(PS2 == PS1) System.out.println("2 phan so bang nhau");
+         if(PS1 > PS2 ) return true;
         else return false;
 
     }
