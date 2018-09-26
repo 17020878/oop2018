@@ -11,9 +11,9 @@ public class Task1 {
 
     public static int fibonacci(int n) {
         // TODO: Tìm số fibonacci ở vị trí n
-        if(n==0) return  0;
-        else if(n==1) return  1;
-        return fibonacci(fibonacci(n-1)+fibonacci(n-2));
+        if(n==0) return 0;
+        else if(n==1) return 1;
+        return fibonacci(n-1)+fibonacci(n-2);
     }
 
     public static void main(String[] args)
