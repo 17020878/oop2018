@@ -11,16 +11,18 @@ public class Week3Test {
     // TODO: Viết 5 testcase cho phương thức max()
     @Test
     public void testMax(){
-        Assert.assertEquals(12, Week3.max(4, 12));
+    /*Assert.*/
+        assertEquals(12, Week3.max(4, 12));
         assertEquals(2, Week3.max(1, 2));
         assertEquals(17, Week3.max(16, 17));
         assertEquals(18, Week3.max(15, 18));
         assertEquals(119, Week3.max(119, 17));
     }
 
+
     // TODO: Viết 5 testcase cho phương thức minOfArray()
     @Test
-    public void testMinOfArra(){
+    public void testMinOfArray(){
         int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 1000, 10};
         assertEquals(1, Week3.minOfArray(a));
         int b[] = {111, 12, 13, 10, 15, 16, 17, 18, 19, 20000};
