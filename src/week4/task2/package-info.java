@@ -7,3 +7,17 @@
  * @version 0.1
  */
 package week4.task2;
+
+class main {
+    public static void main(String[] args) {
+        Shape shape = new Shape();
+        Circle circle = new Circle();
+        Rectangle rectangle = new Rectangle();
+        Square square = new Square();
+        System.out.println(shape.filled);
+        System.out.println("Dien tich hinh tron = " + circle.getArea());
+        System.out.println("chu vi hinh vuong  = " + square.Perimeter());
+        System.out.println("dien tich hinh chu nhat = " + rectangle.setArea());
+        System.out.println("   ddf" + rectangle.toString());
+    }
+}
