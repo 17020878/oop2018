@@ -12,7 +12,7 @@ class main{
         HoaQua hoaqua = new HoaQua();
         QuaCam quacam = new QuaCam("CamCanh",25000,"VietNam","Yellow");
         Tao tao = new Tao("China",30000,"TrungQuoc","Ngot");
-        CamSanh camsanh = new CamSanh("CamSanh",20000,"HaGiang",14);
-        CamThanhPhong camthanhPhong = new CamThanhPhong("CamThanhPhong",40000,"HoaBinh",25);
+        CamSanh camsanh = new CamSanh("CamSanh",20000,"HaGiang","Green",14);
+        CamThanhPhong camthanhPhong = new CamThanhPhong("CamThanhPhong",40000,"HoaBinh","red",25);
     }
 }

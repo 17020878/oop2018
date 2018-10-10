@@ -2,7 +2,7 @@ package week4.task1;
 
 public class QuaCam extends HoaQua{
     //TODO: bổ sung thuộc tính
-    private String color;
+    String color;
 
     public QuaCam(String name, int price, String xuatxu, String color)
     {
@@ -20,11 +20,13 @@ public class QuaCam extends HoaQua{
 
     //TODO: tạo getter setter cho các thuộc tính
 
-    public String getColor() {
+    public String getColor()
+    {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(String color)
+    {
         this.color = color;
     }
 }

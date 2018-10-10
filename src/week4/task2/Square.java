@@ -20,6 +20,6 @@ class Square extends Rectangle{
 
     @Override
     public String toString() {
-        return "Square{" + "color='" + color + '\'' + ", filled=" + filled + ", Side=" + Width + '}';
+        return "Square{ " + "color='" + color + ", filled=" + filled + ", Side=" + Width + " }";
     }
 }

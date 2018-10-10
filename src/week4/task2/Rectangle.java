@@ -55,7 +55,7 @@ class Rectangle extends Shape{
 
     @Override
     public String toString() {
-        return "Rectangle{" + "color='" + color + '\'' + ", filled=" + filled + ", Width=" + Width + ", Length=" + Length + '}';
+        return "Rectangle{ " + "color=" + color  + ", filled=" + filled + ", Width=" + Width + ", Length=" + Length + " }";
     }
 }
 
